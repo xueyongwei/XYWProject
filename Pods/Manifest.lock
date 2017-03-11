@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.0.2)
+  - RTRootNavigationController (0.5.22)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Masonry
+  - RTRootNavigationController
+  - YYKit
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RTRootNavigationController: cf134c044a8ce14d97fc668847ed4567efc53f91
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 8c6cfe7df30a37da7bc3ce16dc752e653fa0fac3
+
+COCOAPODS: 1.2.0
