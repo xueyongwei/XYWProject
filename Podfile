@@ -7,6 +7,10 @@ target 'XYWProject' do
 pod 'YYKit'
 pod 'Masonry'
 pod 'RTRootNavigationController'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'AFNetworking'
+pod 'MJRefresh'
+
   # Pods for XYWProject
 
 end

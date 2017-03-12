@@ -79,7 +79,7 @@
 		47EEE6D71E744A6C00102ED2 = {
 			isa = PBXGroup;
 			children = (
-				47EEE6E21E744A6C00102ED2 /* XYWProject */,
+				47EEE6E21E744A6C00102ED2 /* 工程名字 */,
 				47EEE6E11E744A6C00102ED2 /* Products */,
 				21716C0C61A08E8ABA6CC081 /* Pods */,
 				88E1C16AF5AFB2C8572F3981 /* Frameworks */,
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47EEE6E21E744A6C00102ED2 /* XYWProject */ = {
+		47EEE6E21E744A6C00102ED2 /* 工程名字 */ = {
 			isa = PBXGroup;
 			children = (
 				47EEE7111E74633300102ED2 /* Base */,
@@ -108,6 +108,7 @@
 				47EEE7331E746F0E00102ED2 /* Category */,
 				47EEE6E31E744A6C00102ED2 /* Supporting Files */,
 			);
+			name = "工程名字";
 			path = XYWProject;
 			sourceTree = "<group>";
 		};
@@ -467,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9H9Y2TUHE4;
 				INFOPLIST_FILE = XYWProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pub.xyw.XYWProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9H9Y2TUHE4;
 				INFOPLIST_FILE = XYWProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pub.xyw.XYWProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

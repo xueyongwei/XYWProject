@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4BC215B1FEBD10753AFAEC0C1F7D1C8C</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5F94E366E1B9DBE02C5A5F0E9A38C041</key>
+		<key>61256F4AB914267DF4EB740A8563AE66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>72E591F5F60493EC9107516586C326AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8C774F23A78650A1D3D3305556DCB0A</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7B695C3AD37F7CCFEC610B9504D54F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C486518FC1A24282E1A0ED851991CB74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
