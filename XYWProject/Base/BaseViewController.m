@@ -20,7 +20,7 @@
     //防止没有背景色导致的卡顿和黑屏
     self.view.backgroundColor = [UIColor whiteColor];
     [self setNavigationBarFont: [UIFont systemFontOfSize:16] ForegroundColor:[UIColor redColor]];
-    [self setNavigationBarBackgroundImage:[UIImage imageNamed:@"0.jpg"] shadowImage:[UIImage imageWithColor:[UIColor redColor]]];
+    [self setNavigationBarBackgroundImage:[UIImage imageNamed:@"apple"] shadowImage:[UIImage imageWithColor:[UIColor redColor]]];
 }
 
 -(UIStatusBarStyle)preferredStatusBarStyle

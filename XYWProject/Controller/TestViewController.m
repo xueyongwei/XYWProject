@@ -17,13 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title  = @"hahahah";
-    self.navigationController.navigationBarHidden = YES;
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(100, 64, 100, 100);
     [btn setTitle:@"next" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(onBtnCLick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    [self setNavigationBarFont: [UIFont systemFontOfSize:18] ForegroundColor:[UIColor whiteColor]];
+    [self setNavigationBarBackgroundImage:[UIImage imageWithColor:[UIColor redColor]] shadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(UIStatusBarStyle)preferredStatusBarStyle

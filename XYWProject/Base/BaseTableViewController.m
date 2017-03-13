@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     [self setNavigationBarFont: [UIFont systemFontOfSize:18] ForegroundColor:[UIColor blueColor]];
-    [self setNavigationBarBackgroundImage:[UIImage imageWithColor:[UIColor clearColor]] shadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
+    
 }
 
 - (void)didReceiveMemoryWarning {

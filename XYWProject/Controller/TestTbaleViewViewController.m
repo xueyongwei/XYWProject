@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title  = @"hahahah";
-    
+    [self setNavigationBarBackgroundImage:[UIImage imageWithColor:[UIColor clearColor]] shadowImage:[UIImage imageWithColor:[UIColor clearColor]]];
 }
 
 -(UIStatusBarStyle)preferredStatusBarStyle
