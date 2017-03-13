@@ -9,6 +9,8 @@
 
 #import <Foundation/Foundation.h>
 #import "LoginedUserInfo.h"
+#import <YYDiskCache.h>
+#import "XYWSandBox.h"
 #pragma mark ---UserInfoManager
 
 @interface UserInfoManager : NSObject
@@ -29,11 +31,22 @@
  清理认证信息
  */
 +(void)removeLoginedUserInfo{
-    NSUserDefaults *usf = [NSUserDefaults standardUserDefaults];
     
-    NSDictionary *json = [user yy_modelToJSONObject];
+    
 }
-
++(BOOL)saveUser:(UserInfo *)user
+{
+    NSString *yydiskPath = @"yyChche";
+    YYDiskCache *cache = [[YYDiskCache alloc]initWithPath:[XYWSandBox cachePathAutoCreateIfNotExistWithComponent:yydiskPath] inlineThreshold:1];
+    [cache setObject:user forKey:[NSString stringWithFormat:@"%ld",user.userId]];
+    return YES;
+}
++(UserInfo *)userWithUserID:(NSInteger)userID
+{
+    NSString *yydiskPath = @"yyChche";
+    YYDiskCache *cache = [[YYDiskCache alloc]initWithPath:[XYWSandBox cachePathAutoCreateIfNotExistWithComponent:yydiskPath] inlineThreshold:1];
+    return  (UserInfo *)[cache objectForKey:[NSString stringWithFormat:@"%ld",userID]];
+}
 @end
 
 #import "UserDefaultManager.h"
