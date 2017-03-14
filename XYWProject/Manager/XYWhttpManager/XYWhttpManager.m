@@ -10,11 +10,12 @@
 #import "AFHTTPSessionManager+SharedManager.h"
 #import "XYWHTTPCache.h"
 #import <NSDate+YYAdd.h>
+
 #define kTokenInvalueCode @"1005"
 
 
 @implementation XYWhttpManager
-//更新token
+
 /**
  更新下AFHTTPSessionManager的token
  */
@@ -23,13 +24,13 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager sharedManager];
     [manager refreshRequestToken];
 }
-//请求数据
+
 /**
  请求网络数据
  
  @param urlString 地址
  @param param 参数
- @param VC 暂时没用
+ @param VC 发起者
  @param success 成功的回调
  @param failure 失败的回调
  */
@@ -59,14 +60,15 @@
 
 /**
  发起带缓存的post数据请求
- 
+
  @param urlString 地址
  @param param 参数
- @param refresh 本次请求需要更新网络数据
+ @param VC 发起者
+ @param refresh 本次请求需要强制更新网络数据
  @param success 成功的回答
  @param failure 失败的回调
  */
-+(void)XYWCachePost:(NSString *)urlString parameters:(NSDictionary *)param refresh:(BOOL)refresh sucess:(void (^)(id result))success failure:(void (^)(NSError *error))failure
++(void)XYWCachePost:(NSString *)urlString parameters:(NSDictionary *)param inViewController:(UIViewController *)VC refresh:(BOOL)refresh sucess:(void (^)(id result))success failure:(void (^)(NSError *error))failure
 {
     if (!refresh) {//不是强制更新网络数据时才判断是否用网络请求
         NSDictionary *localCache =[XYWHTTPCache httpCacheForURL:urlString parameters:param];
