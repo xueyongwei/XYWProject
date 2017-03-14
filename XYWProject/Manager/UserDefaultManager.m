@@ -9,8 +9,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LoginedUserInfo.h"
-#import <YYDiskCache.h>
-#import "XYWSandBox.h"
+#import "CacheManager.h"
 #pragma mark ---UserInfoManager
 
 @interface UserInfoManager : NSObject
@@ -36,16 +35,14 @@
 }
 +(BOOL)saveUser:(UserInfo *)user
 {
-    NSString *yydiskPath = @"yyChche";
-    YYDiskCache *cache = [[YYDiskCache alloc]initWithPath:[XYWSandBox cachePathAutoCreateIfNotExistWithComponent:yydiskPath] inlineThreshold:1];
-    [cache setObject:user forKey:[NSString stringWithFormat:@"%ld",user.userId]];
+    [[CacheManager shareInstance].userCache setObject:user forKey:[NSString stringWithFormat:@"%ld",user.userId]];
     return YES;
 }
 +(UserInfo *)userWithUserID:(NSInteger)userID
 {
     NSString *yydiskPath = @"yyChche";
-    YYDiskCache *cache = [[YYDiskCache alloc]initWithPath:[XYWSandBox cachePathAutoCreateIfNotExistWithComponent:yydiskPath] inlineThreshold:1];
-    return  (UserInfo *)[cache objectForKey:[NSString stringWithFormat:@"%ld",userID]];
+    
+    return  (UserInfo *)[[CacheManager shareInstance].userCache objectForKey:[NSString stringWithFormat:@"%ld",userID]];
 }
 @end
 

@@ -21,6 +21,7 @@
 		47EEE7361E746F2400102ED2 /* UIViewController+NavigationSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EEE7351E746F2400102ED2 /* UIViewController+NavigationSetter.m */; };
 		47EEE7381E74700500102ED2 /* apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47EEE7371E74700500102ED2 /* apple@2x.png */; };
 		47EEE73B1E7475F600102ED2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EEE73A1E7475F600102ED2 /* BaseModel.m */; };
+		853F8C481E77BF6200DA5F37 /* XYWHTTPCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F8C471E77BF6200DA5F37 /* XYWHTTPCache.m */; };
 		85A5FCF51E76871C0086C0C1 /* BaseShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FCF41E76871C0086C0C1 /* BaseShareInstance.m */; };
 		85A5FCF91E7687D00086C0C1 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FCF81E7687D00086C0C1 /* UserDefaultManager.m */; };
 		85A5FCFE1E768A470086C0C1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FCFD1E768A470086C0C1 /* CustomView.m */; };
@@ -29,6 +30,9 @@
 		85A5FD081E768EA00086C0C1 /* Cache2UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FD071E768EA00086C0C1 /* Cache2UserDefaultModel.m */; };
 		85A5FD0B1E768F390086C0C1 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FD0A1E768F390086C0C1 /* UserInfo.m */; };
 		85A5FD0F1E7691A40086C0C1 /* XYWSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FD0E1E7691A40086C0C1 /* XYWSandBox.m */; };
+		85A5FD121E76A1A50086C0C1 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FD111E76A1A50086C0C1 /* CacheManager.m */; };
+		85A5FD1B1E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FD161E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.m */; };
+		85A5FD1D1E76A8070086C0C1 /* XYWhttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A5FD1A1E76A8070086C0C1 /* XYWhttpManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,8 @@
 		47EEE7391E7475F600102ED2 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		47EEE73A1E7475F600102ED2 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		681AEB5AA04EBE556EF396C4 /* Pods-XYWProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYWProject/Pods-XYWProject.release.xcconfig"; sourceTree = "<group>"; };
+		853F8C461E77BF6200DA5F37 /* XYWHTTPCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWHTTPCache.h; sourceTree = "<group>"; };
+		853F8C471E77BF6200DA5F37 /* XYWHTTPCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWHTTPCache.m; sourceTree = "<group>"; };
 		85A5FCF31E76871C0086C0C1 /* BaseShareInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShareInstance.h; sourceTree = "<group>"; };
 		85A5FCF41E76871C0086C0C1 /* BaseShareInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShareInstance.m; sourceTree = "<group>"; };
 		85A5FCF71E7687D00086C0C1 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
@@ -74,6 +80,12 @@
 		85A5FD0A1E768F390086C0C1 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		85A5FD0D1E7691A40086C0C1 /* XYWSandBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWSandBox.h; sourceTree = "<group>"; };
 		85A5FD0E1E7691A40086C0C1 /* XYWSandBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWSandBox.m; sourceTree = "<group>"; };
+		85A5FD101E76A1A50086C0C1 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
+		85A5FD111E76A1A50086C0C1 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
+		85A5FD151E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+SharedManager.h"; sourceTree = "<group>"; };
+		85A5FD161E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+SharedManager.m"; sourceTree = "<group>"; };
+		85A5FD191E76A8070086C0C1 /* XYWhttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYWhttpManager.h; sourceTree = "<group>"; };
+		85A5FD1A1E76A8070086C0C1 /* XYWhttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYWhttpManager.m; sourceTree = "<group>"; };
 		B8CD44121F18170FD3071CC2 /* libPods-XYWProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYWProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -214,9 +226,12 @@
 		85A5FCF61E76879F0086C0C1 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				85A5FD131E76A8070086C0C1 /* XYWhttpManager */,
 				85A5FD0C1E7691A40086C0C1 /* XYWSandBoxManager */,
 				85A5FCF71E7687D00086C0C1 /* UserDefaultManager.h */,
 				85A5FCF81E7687D00086C0C1 /* UserDefaultManager.m */,
+				85A5FD101E76A1A50086C0C1 /* CacheManager.h */,
+				85A5FD111E76A1A50086C0C1 /* CacheManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -257,6 +272,27 @@
 				85A5FD0E1E7691A40086C0C1 /* XYWSandBox.m */,
 			);
 			path = XYWSandBoxManager;
+			sourceTree = "<group>";
+		};
+		85A5FD131E76A8070086C0C1 /* XYWhttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				85A5FD141E76A8070086C0C1 /* XYWHTTPLibs */,
+				85A5FD191E76A8070086C0C1 /* XYWhttpManager.h */,
+				85A5FD1A1E76A8070086C0C1 /* XYWhttpManager.m */,
+			);
+			path = XYWhttpManager;
+			sourceTree = "<group>";
+		};
+		85A5FD141E76A8070086C0C1 /* XYWHTTPLibs */ = {
+			isa = PBXGroup;
+			children = (
+				853F8C461E77BF6200DA5F37 /* XYWHTTPCache.h */,
+				853F8C471E77BF6200DA5F37 /* XYWHTTPCache.m */,
+				85A5FD151E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.h */,
+				85A5FD161E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.m */,
+			);
+			path = XYWHTTPLibs;
 			sourceTree = "<group>";
 		};
 		88E1C16AF5AFB2C8572F3981 /* Frameworks */ = {
@@ -400,11 +436,15 @@
 				47EEE73B1E7475F600102ED2 /* BaseModel.m in Sources */,
 				85A5FD0F1E7691A40086C0C1 /* XYWSandBox.m in Sources */,
 				47EEE7201E74635500102ED2 /* TestViewController.m in Sources */,
+				85A5FD1B1E76A8070086C0C1 /* AFHTTPSessionManager+SharedManager.m in Sources */,
 				47EEE6E81E744A6C00102ED2 /* AppDelegate.m in Sources */,
 				85A5FCF91E7687D00086C0C1 /* UserDefaultManager.m in Sources */,
 				47EEE72E1E7469C500102ED2 /* BaseHandler.m in Sources */,
 				47EEE7361E746F2400102ED2 /* UIViewController+NavigationSetter.m in Sources */,
+				85A5FD1D1E76A8070086C0C1 /* XYWhttpManager.m in Sources */,
 				47EEE6E51E744A6C00102ED2 /* main.m in Sources */,
+				853F8C481E77BF6200DA5F37 /* XYWHTTPCache.m in Sources */,
+				85A5FD121E76A1A50086C0C1 /* CacheManager.m in Sources */,
 				85A5FCF51E76871C0086C0C1 /* BaseShareInstance.m in Sources */,
 				85A5FD081E768EA00086C0C1 /* Cache2UserDefaultModel.m in Sources */,
 				47EEE7321E746A0700102ED2 /* BaseTableViewController.m in Sources */,
