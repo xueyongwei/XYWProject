@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LoginedUserInfo.h"
-#import "CacheManager.h"
+
 #pragma mark ---UserInfoManager
 
 @interface UserInfoManager : NSObject
@@ -35,14 +35,11 @@
 }
 +(BOOL)saveUser:(UserInfo *)user
 {
-    [[CacheManager shareInstance].userCache setObject:user forKey:[NSString stringWithFormat:@"%ld",user.userId]];
     return YES;
 }
 +(UserInfo *)userWithUserID:(NSInteger)userID
 {
-    NSString *yydiskPath = @"yyChche";
-    
-    return  (UserInfo *)[[CacheManager shareInstance].userCache objectForKey:[NSString stringWithFormat:@"%ld",userID]];
+    return nil;
 }
 @end
 
